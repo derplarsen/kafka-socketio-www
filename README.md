@@ -20,6 +20,8 @@ Here's how to get it going:
 
 5. Open the `showdata.html` file in the web directory with a browser and open the dev tools console.. then start producing some data to "test_topic" (may need to be created first)
 
+6. Start building cool shizz
+
 ----------------------------
 # Troubleshooting
 
@@ -31,3 +33,7 @@ Look at the `kafkajs-socketio-simple.js` file and see if you need to change the 
 # Note
 
 You can also have Express serve up your html at the default "/" endpoint but wanted to keep this as simple as possible. Ping me if you want to learn more about that / you're not a node guy.
+
+This is intended to run with an unsecure cluster; I intentionally left commented config in the js file for SASL, which works fine on my secured cluster. This version works fine on my unsecured cluster.
+
+Enjoy!

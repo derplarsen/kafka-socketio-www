@@ -1,0 +1,19 @@
+{
+  "name": "kafka-socketio-www",
+  "version": "1.0.0",
+  "description": "Basic how-to for socket.io with kafkajs",
+  "main": "kafkajs-socketio-simple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node kafkajs-socketio-simple.js"
+  },
+  "author": "Chris Larsen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "socket.io": "latest",
+    "http": "latest",
+    "bluebird": "latest",
+    "kafkajs": "latest"
+  }
+}

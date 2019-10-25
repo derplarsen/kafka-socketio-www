@@ -18,7 +18,7 @@ Here's how to get it going:
 
 4. `npm start`
 
-5. Open the showdata.html file in the web directory and start producing some data to "test_topic" (may need to be created first)
+5. Open the `showdata.html` file in the web directory with a browser and open the dev tools console.. then start producing some data to "test_topic" (may need to be created first)
 
 ----------------------------
 # Troubleshooting
